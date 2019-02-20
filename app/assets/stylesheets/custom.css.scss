@@ -1,2 +1,77 @@
+$navbar-default-bg: #2E0854;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+/*.center {
+  text-align: center;
+}*/
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.background-image {
+  background-image: asset-url('cover.jpg');
+  background-size: cover;
+  height: 400px;
+}
+
+.background-image2 {
+  background-image: asset-url('cover2.jpg');
+  background-size: cover;
+  height: 400px;
+}
+
+.background-image3 {
+  background-image: asset-url('cover3.jpg');
+  background-size: cover;
+  height: 400px;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.carousel-inner h1, h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.carousel-inner h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+  margin-bottom: 50px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.btn-xlarge {
+  background-color: #2E0854;
+}
+
+.btn-xlarge:hover {
+  color: #fff;
+  text-decoration: none;
+}
